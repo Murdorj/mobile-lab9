@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/score_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Таны оноо: 0/10"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0277BD"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/check_answers_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Хариултаа шалгах:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0277BD"
+        android:paddingBottom="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/answers_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Answer cards will be added programmatically -->
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/back_to_dashboard_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0277BD"
+        android:padding="12dp"
+        android:text="Буцах"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="18sp" />
+</LinearLayout>

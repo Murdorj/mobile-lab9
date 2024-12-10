@@ -26,6 +26,18 @@
         <!-- Add Register Activity -->
         <activity android:name=".Register" android:exported="true" />
 
+        <activity
+            android:name=".OpeningScreenActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".QuizPageActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ScoreScreenActivity"
+            android:exported="true" />
+
         <activity android:name=".MainActivity" android:exported="true" />
 
     </application>

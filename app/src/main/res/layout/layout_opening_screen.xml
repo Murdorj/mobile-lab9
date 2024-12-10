@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/opening_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Та 5 дугаар ангийн хүүхдээс ухаантай юу?"
+        android:textSize="24sp"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="40dp" />
+
+    <Button
+        android:id="@+id/start_quiz_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:padding="12dp"
+        android:text="Эхлэх"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
